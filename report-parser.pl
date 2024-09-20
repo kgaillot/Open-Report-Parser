@@ -950,7 +950,7 @@ sub getXMLFromZip {
     }
   } 
   else {
-    warn "$scriptname: Could not find an <$filename>! \n";
+    warn "$scriptname: No ZIP file name specified! \n";
   }
 
   return $xml;
