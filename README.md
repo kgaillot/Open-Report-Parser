@@ -30,10 +30,11 @@ libmail-mbox-messageparser-perl libwww-perl unzip
 - For PostgreSQL: `libdbd-pg-perl`
 - For Oauth2: `liblwp-protocol-https-perl libencode-perl libtime-piece-mysql-perl`
 
-## on Fedora (Fedora 23)
+## on Fedora (Fedora 40)
 
 ```
-sudo dnf install perl-File-MimeInfo perl-Mail-IMAPClient perl-MIME-tools perl-XML-Simple perl-DBI \
+sudo dnf install perl-File-MimeInfo perl-Mail-IMAPClient \
+perl-Mail-Mbox-MessageParser perl-MIME-tools perl-XML-Simple perl-DBI \
 perl-Socket6 perl-PerlIO-gzip perl-libwww-perl unzip
 ```
 
